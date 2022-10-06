@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.ccacheWrapper
+		pkgs.clear
+  pkgs.ccacheWrapper
   pkgs.azure-functions-core-tools
   pkgs.cd lfuncoes
   pkgs.clang_12
